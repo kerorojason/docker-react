@@ -2,7 +2,7 @@ sudo: required
 services:
   - docker
 
-brfore_install:
+before_install:
   - docker build -t kerorojason/docker-react -f Dockerfile.dev .
 
 script:
